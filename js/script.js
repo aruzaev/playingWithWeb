@@ -1,8 +1,10 @@
 "use strict";
 
 (function() {
-    let age = Number("42     ");
-    alert(age);
+    let a = "2";
+    let b = "3";
+
+    alert(+a + +b);
 })();
 
 
