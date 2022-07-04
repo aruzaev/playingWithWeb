@@ -1,10 +1,7 @@
-"use strict";
+"use strict"; // makes javascript less bad
 
-(function() {
-    let a = "2";
-    let b = "3";
-
-    alert(+a + +b);
+(function() { // allows variables to be in func scope
+    
 })();
 
 
