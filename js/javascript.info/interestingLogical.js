@@ -11,6 +11,10 @@
     // the same thing could be done for the && operator, except && returns the first 
     // true value
 
+    
+    // && returns the first false value:
+    console.log(1 && null && 2); // 1 true, null false so output is null
+
     console.log(!true); // false
     console.log(!0); // true
 
@@ -19,6 +23,6 @@
     // will make the boolean into what it really is (which is a true since string isnt
     // empty)
 
-    console.log(!!"");
+    console.log(!!""); // false 
 
 })();
