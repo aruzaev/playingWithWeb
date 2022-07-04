@@ -1,7 +1,7 @@
 "use strict";
 
 (function() {
-    let firstName = "";
+/*    let firstName = "";
     let lastName = "";
     let nickName = "SuperCoder";
 
@@ -25,4 +25,39 @@
 
     console.log(!!""); // false 
 
+    let age = 12;
+
+    if (age >= 14 && age <= 90) {
+        console.log("You are still young");
+    }
+    
+    if (age < 14 || age > 90) {
+        console.log("Bruhhhhhh aint no wayyyyyy skull");
+    }
+
+    if (!(age >= 14 && age <= 90)) {
+        console.log("Bruh");
+    }
+    */
+
+    const usernameInput = prompt("Username: ", '');
+    let passwordInput;
+    
+    if (usernameInput === "Admin") {
+        passwordInput = prompt("Password: ", '');
+
+        if (passwordInput != '') {
+            if (passwordInput === "TheMaster") {
+                alert("Welcome!");
+            }
+            else if (passwordInput !== "TheMaster") {
+                alert("Wrong password");
+            }
+        }
+        else {
+            alert("Canceled");
+        }
+    } else {
+        alert("Invalid username:")
+    }
 })();
