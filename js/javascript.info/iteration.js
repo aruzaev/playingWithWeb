@@ -25,4 +25,8 @@ for (let i = 2; i <= 10; i++) {
 }
 */
 
+let userInput = +prompt("Enter a number greater than 100", '');
 
+while (userInput <= 100 || !userInput) {
+    userInput = +prompt("Error, try again:", '');
+} 
