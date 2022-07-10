@@ -15,7 +15,7 @@
     // && returns the first false value:
     console.log(1 && null && 2); // 1 true, null false so output is null
 
-    console.log(!true); // false
+    console.log(!truse); // false
     console.log(!0); // true
 
     console.log(!!"This will get converted into a boolean type");
